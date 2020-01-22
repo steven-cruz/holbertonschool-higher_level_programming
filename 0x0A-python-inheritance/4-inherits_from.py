@@ -6,7 +6,5 @@
 
 
 def inherits_from(obj, a_class):
-    '''
-    Returns True or False
-    '''
-    return isinstance(obj, a_class) and not isinstance(obj, a_class)
+    ''' Returns True or False '''
+    return type((obj) is not a_class and isinstance(obj, a_class))
