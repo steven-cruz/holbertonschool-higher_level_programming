@@ -11,6 +11,11 @@ class Square(Rectangle):
         ''' instantiation of Square attributes '''
         super().__init__(size, size, x, y, id)
 
+    def __str__(self):
+        '''print attribute with __str__'''
+        a, b, c, d = self.id, self.x, self.y, self.size
+        return ("[Square] ({}) {}/{} - {}".format(a, b, c, d))
+
     @property
     def size(self):
         ''' set the property of width '''
