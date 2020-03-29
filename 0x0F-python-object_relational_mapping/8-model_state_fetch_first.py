@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#prints the first State object from the database.
+# prints the first State object from the database.
 
 import sqlalchemy
 import sys
