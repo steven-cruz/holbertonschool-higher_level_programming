@@ -1,4 +1,4 @@
-#!/usr/binPython3
+#!/usr/bin/python3
 # List all states with a name starting with N (upper N).
 
 import MySQLdb
