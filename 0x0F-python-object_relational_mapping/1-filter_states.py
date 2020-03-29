@@ -13,6 +13,5 @@ if __name__ == "__main__":
     for  rows in c.fetchall():
         if rows[1][0] == 'N':
             print(rows)
-
     c.close()
-    db.clse()
+    db.close()
