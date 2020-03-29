@@ -2,7 +2,7 @@
 # changes the name of a State object from the database
 
 
-import slqalchemy
+import sqlalchemy
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
