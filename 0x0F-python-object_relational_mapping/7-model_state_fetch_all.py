@@ -18,3 +18,5 @@ if __name__ = "__main__":
     session = Seccion()
     for item in session.query(State).order_by(State.id):
         print("{}: {}".format(item.id, item.name))
+
+    session.close()
