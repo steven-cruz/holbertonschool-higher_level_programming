@@ -1,2 +1,2 @@
-O(long(n))
+O(log(n))
 
