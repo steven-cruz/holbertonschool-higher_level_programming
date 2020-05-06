@@ -1,6 +1,6 @@
 #!/usr/bin/node
 // script that searches the second biggest integer in the list of arguments.
-let list = [];
+const list = [];
 let count = 2;
 const arg = process.argv.length;
 
