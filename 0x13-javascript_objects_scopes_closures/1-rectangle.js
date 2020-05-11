@@ -1,4 +1,4 @@
-#!/usr/bin/js
+#!/usr/bin/node
 // define a class Rectangle.
 
 class Rectangle {
